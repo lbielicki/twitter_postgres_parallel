@@ -299,7 +299,7 @@ def _insert_tweets(connection,input_tweets):
             id_urls = url['expanded_url']
             tweet_urls.append({
                 'id_tweets':tweet['id'],
-                'url':id_urls,
+                'url':remove_nulls(id_urls),
                 })
 
         ########################################
