@@ -4,7 +4,6 @@ CREATE EXTENSION postgis;
 
 BEGIN;
 
-
 /*
  * Users may be partially hydrated with only a name/screen_name 
  * if they are first encountered during a quote/reply/mention 
